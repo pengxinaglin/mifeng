@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_44dp"
+      android:background="@color/common_white"
+      >
+    <TextView
+        android:id="@+id/tv_search_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px_20dp"
+        android:textColor="@color/common_yellow"
+        android:text="@string/search_cancel"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/px_15dp"
+        android:paddingRight="@dimen/px_15dp"
+        android:layout_toLeftOf="@id/tv_search_cancel"
+        >
+
+      <AutoCompleteTextView
+          android:id="@+id/ac_input"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/px_31dp"
+          android:layout_centerVertical="true"
+          android:drawableLeft="@drawable/icon_search"
+          android:textSize="@dimen/ip5_28px"
+          android:textColorHint="@color/common_text_gray"
+          android:textColor="@color/common_text_black"
+          android:background="@drawable/common_bg_gray"
+          android:drawablePadding="@dimen/px_5dp"
+          android:imeOptions="actionSearch"
+          android:singleLine="true"
+          android:gravity="left|center_vertical"
+          android:paddingLeft="@dimen/px_10dp"
+          android:hint="@string/search_hint"
+          android:completionThreshold="1"
+          />
+
+    </RelativeLayout>
+  </RelativeLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_05dp"
+      android:background="@color/common_line"
+      />
+
+  <com.haoche51.bee.custom.BeeScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:overScrollMode="never"
+      android:scrollbars="none"
+      android:background="@color/common_bg_gray"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+      <include layout="@layout/search_history"/>
+
+      <include layout="@layout/search_hot"/>
+
+    </LinearLayout>
+  </com.haoche51.bee.custom.BeeScrollView>
+
+</LinearLayout>

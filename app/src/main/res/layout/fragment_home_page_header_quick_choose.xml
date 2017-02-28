@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ip5_28px"
+      android:textColor="@color/common_text_black"
+      android:layout_marginLeft="@dimen/px_15dp"
+      android:text="@string/quick_choose"
+      android:layout_marginBottom="@dimen/px_12dp"
+      />
+
+  <RadioGroup
+      android:id="@+id/hot_rg_0"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_55dp"
+      android:layout_marginRight="@dimen/px_15dp"
+      android:layout_marginLeft="@dimen/px_15dp"
+      android:paddingRight="@dimen/px_05dp"
+      android:gravity="center"
+      android:background="@color/common_line"
+      android:orientation="horizontal"
+      >
+
+    <RadioButton
+        android:id="@+id/rb_price_0"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_0"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_1"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_1"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_2"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_2"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_3"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_3"
+        />
+  </RadioGroup>
+
+  <RadioGroup
+      android:id="@+id/hot_rg_1"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_55dp"
+      android:layout_marginRight="@dimen/px_15dp"
+      android:layout_marginLeft="@dimen/px_15dp"
+      android:paddingRight="@dimen/px_05dp"
+      android:paddingBottom="@dimen/px_05dp"
+      android:gravity="center"
+      android:background="@color/common_line"
+      android:orientation="horizontal"
+      >
+
+    <RadioButton
+        android:id="@+id/rb_price_4"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_4"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_5"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_5"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_6"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_6"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_price_7"
+        style="@style/hot_price_rb"
+        android:text="@string/bee_price_7"
+        />
+  </RadioGroup>
+
+  <com.haoche51.bee.custom.BeeGridView
+      android:id="@+id/gv_home_brand"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/common_line"
+      android:paddingRight="@dimen/px_05dp"
+      android:layout_marginLeft="@dimen/px_15dp"
+      android:layout_marginRight="@dimen/px_15dp"
+      android:listSelector="@android:color/transparent"
+      android:numColumns="4"
+      />
+
+</LinearLayout>

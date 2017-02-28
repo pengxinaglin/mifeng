@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_50dp"
+    android:layout_marginLeft="@dimen/px_15dp"
+    android:layout_marginRight="@dimen/px_15dp"
+    android:layout_marginTop="@dimen/px_25dp"
+    android:layout_marginBottom="@dimen/px_25dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_home_search"
+    >
+  <FrameLayout
+      android:id="@+id/frame_home_search_city"
+      android:layout_width="@dimen/px_100dp"
+      android:layout_height="match_parent"
+      >
+    <TextView
+        android:id="@+id/tv_home_search_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/ip5_28px"
+        android:textColor="@color/common_text_black"
+        android:text="@string/city_all"
+        android:drawablePadding="@dimen/px_5dp"
+        android:drawableRight="@drawable/icon_home_city_choose"
+        />
+  </FrameLayout>
+  <View
+      android:layout_width="@dimen/px_05dp"
+      android:layout_height="@dimen/px_40dp"
+      android:background="@color/common_bg_gray"
+      />
+  <FrameLayout
+      android:id="@+id/frame_home_search"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/ip5_28px"
+        android:textColor="@color/common_text_gray"
+        android:text="@string/home_search_hint"
+        android:drawablePadding="@dimen/px_10dp"
+        android:drawableLeft="@drawable/icon_home_search"
+        />
+  </FrameLayout>
+</LinearLayout>

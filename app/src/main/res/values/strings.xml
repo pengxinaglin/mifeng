@@ -1,0 +1,85 @@
+<resources>
+  <string name="app_name">蜜蜂二手车</string>
+
+  <!-- Main Page -->
+  <string name="bee_back_again_exit">再按一次退出程序</string>
+  <string name="bee_tab_home">首页</string>
+  <string name="bee_tab_buy_car">买车</string>
+  <string name="bee_tab_profile">我的</string>
+
+  <!-- Home Page -->
+  <string name="home_search_hint">克鲁兹2012款 1.8T</string>
+  <string name="app_name_hint">源自七大平台</string>
+  <string name="app_desc_1">精挑细选,只汇聚全网七家</string>
+  <string name="app_desc_2">拥有专业检测、放心质保的平台。</string>
+  <string name="app_desc_3">点击可了解各平台资质</string>
+  <string name="home_count">00,000</string>
+  <string name="home_count_hint">辆放心二手车</string>
+  <string name="home_today_count_hint">辆</string>
+  <string name="quick_choose">快速选车</string>
+  <string name="see_all">全部车源</string>
+  <string name="bee_price_0">0~3万</string>
+  <string name="bee_price_1">3~5万</string>
+  <string name="bee_price_2">5~10万</string>
+  <string name="bee_price_3">10~15万</string>
+  <string name="bee_price_4">15~20万</string>
+  <string name="bee_price_5">20~30万</string>
+  <string name="bee_price_6">30~50万</string>
+  <string name="bee_price_7">50万以上</string>
+
+  <string-array name="home_hot_price">
+    <item>0~3万</item>
+    <item>3~5万</item>
+    <item>5~10万</item>
+    <item>10~15万</item>
+    <item>15~20万</item>
+    <item>20~30万</item>
+    <item>30~50万</item>
+    <item>50万以上</item>
+  </string-array>
+
+  <!-- Choose Car Page -->
+  <string name="choose_city">城市</string>
+  <string name="vehicle_list_price">万起</string>
+  <string name="vehicle_list_price_wan">万</string>
+  <string name="vehicle_list_cut_price">已降%s万</string>
+  <string name="and_so_on">···</string>
+  <string name="platform_choose">好车无忧</string>
+
+  <!--  Search Page -->
+  <string name="search_cancel">取消</string>
+  <string name="search_hint">搜索品牌/车系</string>
+  <string name="search_hot">热门搜索</string>
+  <string name="search_history">历史搜索</string>
+
+  <!--  City Page -->
+  <string name="city_choose">城市选择</string>
+  <string name="city_location_hint">当前定位城市</string>
+  <string name="city_current_choose">当前选择:%s</string>
+  <string name="city_location_dredge">%s(尚未开通,请等待)</string>
+  <string name="city_hot_hint">热门城市</string>
+  <string name="city_location_fail">定位失败,请手动选择城市</string>
+  <string name="city_all">全国</string>
+  <string name="city_letter">AA</string>
+
+
+  <!-- PullToRefresh -->
+  <string name="bee_pull_down">下拉刷新</string>
+  <string name="bee_release_to_refresh">松开刷新</string>
+
+  <string name="bee_load_more">加载更多</string>
+  <string name="bee_no_more_data">没有更多车源了</string>
+
+
+  <!-- Other -->
+  <string name="bee_total_vehicle">为您找到%d辆超值好车</string>
+  <string name="bee_net_unreachable">当前网络不好,请稍候重试</string>
+  <string name="bee_net_err_retry">您的网络不太给力哦!</string>
+  <string name="bee_no_data">抱歉没有找到!</string>
+  <string name="bee_no_data_for_profile">你还没有咨询记录哦!</string>
+  <string name="bee_no_data_for_profile_hint">只要咨询过的车即可在这查看记录</string>
+  <string name="immediately_experience">马上体验</string>
+  <string name="platform_close">关闭</string>
+  <string name="my_ask">我的咨询</string>
+  <string name="bee_number">%d</string>
+</resources>

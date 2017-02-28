@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_ef4ea599a6eb8c3591ce4a426d00deb7b1f7c762/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/internal_impl-24.2.1_e7ca8bd25bbcee3d8b9ff79df6ae306d1a435729/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.tencent.bugly/crashreport/2.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="77ce2479966f7f7fb8c18213136c6282d7390407">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.tencent.bugly-crashreport-2.4.0_e6ec776ac6abdac35b43d0c6b7567662bf1ce760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/libs/BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2eafa550f09b7df7ab13bae59bc665b66448bcf9">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/2/BaiduLBS_Android_c2b17ce6c98265c4e7fd5704235bdcb736e6df07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/internal_impl-24.2.1_493dff85481079cb96ea63f1029ccbe187aadc1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v4/1.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7dc4e0ea5b06183f6b32f08c5db6bcb6ef79c02a">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.ogaclejapan.smarttablayout-utils-v4-1.6.1_0ab9516e466e7bcbd749f2ccff8e729da87b41f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-compat-24.2.1_3c61cd408a4a4c9dbdbd3cd5764d97b5e542377c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/retrofit-2.1.0_aded4d503be48ff9a58d8ef924b75bc3b358129b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_b36800fd266e9593cad1cdd299db86ec31cfbd1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/internal_impl-24.2.1_0d6efa37cc5d9c1486f9dada3c0852a9244ec052/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/okhttp-3.3.0_9277bfe3c2f96206337a3af50615b883b0b9c5db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-v4-24.2.1_8f497bab539f693c47a1b5ff08e7e720d5e59785/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_8957232220d7e40f8b6e73e015b1e7fb0c915792/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/internal_impl-24.2.1_48122128261033c5202fb820c60b9365332ccc4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/gson-2.4_6aa4c3bec005f576efab05bc65aa902b4908fc02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/incremental-classes/1207000/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4975f4271ff4816990f5810ee531112a12938e1c">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/instant-run-bootstrap_f41ae92888fca92c7dd05747af9f0bccecb3b7be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-multidex-1.0.1_ea7de40354569ba218ebc6714b8f13ddea43cd44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/universal-image-loader-1.9.3_53cab49468870ec08dadc90335bff6a61f47b4d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/butterknife-annotations-8.4.0_2d6cb76f4d045538d31b665698768185a185ec10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/libs/Baidu_Mtj_3.7.5.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3c878a9cef073484b617e342015a55bdca57f2b4">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/2/Baidu_Mtj_3.7.5.4_b559e6d4077f6a5aef91791cc2ae09879f119493/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d1271b4e51f0e9b2e8c61790b038ef29e66a8d8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/internal_impl-24.2.1_edd0085bb6b1c76b5d23c9e524e5bccb11be6caa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/incremental-runtime-classes/1207000/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="656cb12528fb6c7239cddcbcbef0d1837a901af9">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/instant-run_467faef559cd8af92ef4cfefe8bc72dc118e2845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7aa9a64408679b54260b859ae8eb723b69ecd30">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/in.srain.cube-ultra-ptr-1.0.10_ee68f6b0140f61d9617ffdab736e6c7bcd226b47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/eventbus-3.0.0_960e906e606a0b342936184fd389de6b539f4acf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/converter-scalars-2.1.0_360083c99f11342f0b4fa68f51eb167ddcc1294e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_78d653bd1747ef9868848f5ccce195386a9f5d90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/libs/360update-5.0.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="51e8c4c397555bf73e27741671b407be875115ea">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/2/360update-5.0.7_7734997f1ffe5182393b147150eb326c0ceecc07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/support-annotations-24.2.1_98ffe390cb47b8915198e3aae7dab3894397c5cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_ec3b3d21579ce8e389d08ff3c6441d973f849877/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/okio-1.8.0_bba096a268d172d1ca8654e7b27976aedb86eba3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_ac4ccf311001e536efcd02db1eb57e9a6107c259/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_9a1fe9438ca28e626c8603eaa7cd8725f3881e3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1d16ffcc50b1dfa726cf978ea9f0a949cdd70e7d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_bee/app/build/intermediates/transforms/dex/1207000/debug/folders/1000/10/com.ogaclejapan.smarttablayout-library-1.6.1_aac5e7333e5cccb313215580a23b2761981e9679/classes.dex" />
+    </item>
+
+</items>

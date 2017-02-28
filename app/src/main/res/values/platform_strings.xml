@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="platform_aptitude">平 台 资 质</string>
+  <string name="platform_detection">平台检测</string>
+  <string name="platform_advantage">平台优势</string>
+  <string name="platform_intro">平台简介</string>
+
+  <string-array name="platform_name_list">
+    <item>好车无忧</item>
+    <item>瓜子</item>
+    <item>优信认证</item>
+    <item>优车诚品</item>
+    <item>车王</item>
+    <item>人人车</item>
+    <item>58放心车</item>
+  </string-array>
+
+  <string-array name="platform_detection_list">
+    <item>218项专业检测，确保平台车辆均无重大事故损伤。</item>
+    <item>259项专业检测，确保平台车辆均无重大事故损伤。</item>
+    <item>158项专业检测，确保平台车辆均无重大事故损伤。</item>
+    <item>798项专业检测，确保平台车辆均无重大事故损伤。</item>
+    <item>245项专业检测、232项专业认证，确保平台车辆均无重大事故损伤。</item>
+    <item>249项专业检测，确保平台车辆均无重大事故损伤。</item>
+    <item>110项专业检测，确保平台车辆均无重大事故损伤。</item>
+  </string-array>
+
+  <string-array name="platform_advantage_guazi">
+    <item> · 100%个人二手车</item>
+    <item> · 259项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 14天可退车</item>
+    <item> · 1年2万公里质保</item>
+    <item> · 专人陪同办理过户</item>
+  </string-array>
+  <string-array name="platform_advantage_renren">
+    <item> · 100%个人二手车</item>
+    <item> · 249项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 14天可退车</item>
+    <item> · 1年2万公里基础质保</item>
+    <item> · 一站式服务</item>
+  </string-array>
+  <string-array name="platform_advantage_haoche">
+    <item> · 超大展厅</item>
+    <item> · 218项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 30天可退车</item>
+    <item> · 1年2万公里质保</item>
+    <item> · 专人陪同办理过户</item>
+    <item> · 1000万诚信保证金</item>
+    <item> · 全国6家直营店</item>
+  </string-array>
+  <string-array name="platform_advantage_youche">
+    <item> · 超大展厅</item>
+    <item> · 798项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 14天可退车</item>
+    <item> · 1年2万公里质保</item>
+  </string-array>
+  <string-array name="platform_advantage_chewang">
+    <item> · 245项检测</item>
+    <item> · 232项认证</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 超大展厅</item>
+    <item> · 3个月5千公里质保</item>
+    <item> · 7天可退换</item>
+    <item> · 全国22家直营店</item>
+    <item> · 回购保障</item>
+  </string-array>
+  <string-array name="platform_advantage_youxin">
+    <item> · 双重检测</item>
+    <item> · 158项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 30天可退车</item>
+    <item> · 1年或2万公里保修</item>
+  </string-array>
+  <string-array name="platform_advantage_58">
+    <item> · 110项检测</item>
+    <item> · 无重大事故损伤</item>
+    <item> · 7天可退车</item>
+  </string-array>
+
+  <string-array name="platform_intro_guazi">
+    <item>瓜子二手车直卖网于2015年9月27日正式上线。</item>
+    <item>2015年，瓜子二手车累计销售额超过了37亿元人民币。</item>
+    <item>2016年3月，瓜子二手车直卖网宣布完成A轮2.045亿美元融资。</item>
+    <item>目前，瓜子二手车已经覆盖全国200多个城市。</item>
+  </string-array>
+  <string-array name="platform_intro_renren">
+    <item>人人车致力于打造全新的二手车c2c交易模式，为个人用户提供诚信、专业、便捷、有保障的优质二手车交易平台。</item>
+    <item>2014年4月成立，成立初获得来自红点创投的500万美元A轮融资。</item>
+    <item>2014年12月，获得由雷军系顺为资本和策源资本领投、红点创投跟投的B轮投资2000万美元B轮融资。</item>
+    <item>2015年8月，完成由腾讯战略领投的8500万美元C轮融资。</item>
+    <item>2016年9月，完成D轮系列的首笔融资1.5亿美元。</item>
+  </string-array>
+  <string-array name="platform_intro_haoche">
+    <item>好车无忧是一家专注于通过互联网进行二手车交易的创新性网站。</item>
+    <item>2014年7月“好车无忧”上线，启动北京市场运营。</item>
+    <item>成立初即获得明势资本、梅花天使数百万元人民币的天使轮融资。</item>
+    <item>2014年11月好车无忧获得经纬创投、源码资本领投，成为基金和明势资本2000万美金A轮融资。</item>
+    <item>2015年11月好车无忧获得5000万美金B轮融资。</item>
+    <item>2016年2月好车无忧在郑州开设了第一个线下体验店。</item>
+    <item>2016年5月好车无忧发布“二手车轻展厅”战略，重点布局郑州、济南、成都、重庆、苏州五个地区。</item>
+  </string-array>
+  <string-array name="platform_intro_youche">
+    <item>2013年12月，优车诚品创立并获得真格基金天使轮融资。</item>
+    <item>2014年1月，优车诚品获得IDG领投近千万元A轮融资。</item>
+    <item>2014年5月，优车诚品北京亦庄店开业，占地30000平米超大售车展厅。</item>
+    <item>2015年8月,优车诚品北京来广营店正式运营。</item>
+    <item>2015年8月，优车诚品完成由银河资本领投，IDG、真格基金、华创创投跟投的共1816万美元B轮融资。</item>
+    <item>2015年10月,优车诚品天津店开业。</item>
+    <item>2016年6月,优车诚品包头店开业。</item>
+  </string-array>
+  <string-array name="platform_intro_chewang">
+    <item>2011年11月车王二手车超市0号店试运营。</item>
+    <item>2012年3月车王二手车超市正式更名为车王认证二手车超市。</item>
+    <item>已成为中国最大的连锁二手车零售超市，车王至今已在全国范围拥有22家店。</item>
+  </string-array>
+  <string-array name="platform_intro_youxin">
+    <item>“优信二手车”，是专业提供二手车零售的电商平台。</item>
+    <item>2015年3月“优信二手车”正式上线。</item>
+    <item>2014年9月完成来自B轮华平投资集团、老虎环球基金等的2.6亿美元的B轮融资。</item>
+    <item>2015年3月完成来自百度、KKR和Coatue的总计1.7亿美元的新一轮融资。</item>
+  </string-array>
+  <string-array name="platform_intro_58">
+    <item>"58放心车"是由58同城推出的二手车品牌。</item>
+    <item>"58放心车"是指由58专业检测人员或58放心车联盟商家，按照58放心车标准严格把关，甄选出来的无重大事故的优质二手车源。</item>
+    <item>2013年10月在纽交所上市。</item>
+    <item>2015年，58同城和赶集网合并。</item>
+  </string-array>
+
+</resources>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <include layout="@layout/common_layout_for_net_err"/>
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <WebView
+        android:id="@+id/web_browser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back_web_browser"
+        android:layout_width="@dimen/px_35dp"
+        android:layout_height="@dimen/px_35dp"
+        android:contentDescription="@null"
+        android:layout_margin="@dimen/px_10dp"
+        android:background="@drawable/detail_back_circle"
+        android:src="@drawable/icon_filter_return"
+        android:scaleType="center"
+        />
+
+  </FrameLayout>
+
+</LinearLayout>

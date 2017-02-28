@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- 应用底部tab文字的颜色selector-->
+
+  <item android:color="@color/common_yellow"
+      android:state_checked="true"/>
+  <item android:color="@color/common_text_gray"
+      android:state_checked="false"/>
+
+</selector>

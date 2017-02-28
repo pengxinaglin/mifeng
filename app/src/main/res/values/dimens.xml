@@ -1,0 +1,67 @@
+<resources>
+
+  <dimen name="px_m05">-0.5dp</dimen>
+  <dimen name="px_m1">-1dp</dimen>
+  <dimen name="px_m3">-3dp</dimen>
+  <dimen name="px_05dp">0.5dp</dimen>
+  <dimen name="px_1dp">1dp</dimen>
+  <dimen name="px_2dp">2dp</dimen>
+  <dimen name="px_2p5dp">2.5dp</dimen>
+  <dimen name="px_3dp">3dp</dimen>
+  <dimen name="px_4dp">4dp</dimen>
+  <dimen name="px_5dp">5dp</dimen>
+  <dimen name="px_6dp">6dp</dimen>
+  <dimen name="px_7dp">7dp</dimen>
+  <dimen name="px_8dp">8dp</dimen>
+  <dimen name="px_9dp">9dp</dimen>
+  <dimen name="px_10dp">10dp</dimen>
+  <dimen name="px_12dp">12dp</dimen>
+  <dimen name="px_13dp">13dp</dimen>
+  <dimen name="px_15dp">15dp</dimen>
+  <dimen name="px_17dp">17dp</dimen>
+  <dimen name="px_20dp">20dp</dimen>
+  <dimen name="px_22dp">22dp</dimen>
+  <dimen name="px_25dp">25dp</dimen>
+  <dimen name="px_30dp">30dp</dimen>
+  <dimen name="px_31dp">31dp</dimen>
+  <dimen name="px_35dp">35dp</dimen>
+  <dimen name="px_36dp">36dp</dimen>
+  <dimen name="px_40dp">40dp</dimen>
+  <dimen name="px_44dp">44dp</dimen>
+  <dimen name="px_45dp">45dp</dimen>
+  <dimen name="px_48dp">48dp</dimen>
+  <dimen name="px_50dp">50dp</dimen>
+  <dimen name="px_55dp">55dp</dimen>
+  <dimen name="px_60dp">60dp</dimen>
+  <dimen name="px_64dp">64dp</dimen>
+  <dimen name="px_70dp">70dp</dimen>
+  <dimen name="px_75dp">75dp</dimen>
+  <dimen name="px_77dp">77dp</dimen>
+  <dimen name="px_80dp">80dp</dimen>
+  <dimen name="px_90dp">90dp</dimen>
+  <dimen name="px_100dp">100dp</dimen>
+  <dimen name="px_105dp">105dp</dimen>
+  <dimen name="px_106dp">106dp</dimen>
+  <dimen name="px_120dp">120dp</dimen>
+  <dimen name="px_155dp">155dp</dimen>
+  <dimen name="px_200dp">200dp</dimen>
+  <dimen name="px_480dp">480dp</dimen>
+
+  <!--          字体相关          -->
+  <dimen name="ip5_80px">40sp</dimen>
+  <dimen name="ip5_60px">30sp</dimen>
+  <dimen name="ip5_52px">26sp</dimen>
+  <dimen name="ip5_40px">20sp</dimen>
+  <dimen name="ip5_36px">18sp</dimen>
+  <dimen name="ip5_34px">17sp</dimen>
+  <dimen name="ip5_32px">16sp</dimen>
+  <dimen name="ip5_30px">15sp</dimen>
+  <dimen name="ip5_28px">14sp</dimen>
+  <dimen name="ip5_26px">13sp</dimen>
+  <dimen name="ip5_24px">12sp</dimen>
+  <dimen name="ip5_22px">11sp</dimen>
+  <dimen name="ip5_20px">10sp</dimen>
+  <dimen name="ip5_18px">9sp</dimen>
+  <dimen name="ip5_16px">8sp</dimen>
+  <!--          字体相关          -->
+</resources>

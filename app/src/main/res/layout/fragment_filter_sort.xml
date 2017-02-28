@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_sort_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_bg_gray"
+    >
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_44dp"
+      android:background="@color/common_white"
+      >
+    <ImageView
+        android:id="@+id/iv_filter_sort_close"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_44dp"
+        android:contentDescription="@null"
+        style="@style/bee_filter_top_close"
+        />
+  </FrameLayout>
+  <TextView
+      style="@style/bee_filter_title_hint"
+      android:text="@string/filter_sort"
+      />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_05dp"
+      android:background="@color/common_line"
+      />
+
+  <ListView
+      android:id="@+id/lv_filter_sort_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:cacheColorHint="@color/bee_transparent_color"
+      android:focusable="true"
+      android:divider="@null"
+      android:overScrollMode="never"
+      android:listSelector="@drawable/common_selector_click"
+      android:scrollbars="none"
+      />
+</LinearLayout>

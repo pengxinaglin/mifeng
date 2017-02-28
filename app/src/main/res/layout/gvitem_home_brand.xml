@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_home_brand_grid"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_55dp"
+    android:background="@color/common_line"
+    android:paddingLeft="@dimen/px_05dp"
+    android:paddingBottom="@dimen/px_05dp"
+    android:descendantFocusability="afterDescendants"
+    >
+  <FrameLayout
+      android:id="@+id/frame_home_brand_item"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_55dp"
+      android:background="@drawable/common_selector_click"
+      >
+
+    <ImageView
+        android:id="@+id/iv_home_brand_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/empty_brand"
+        />
+    <TextView
+        android:id="@+id/tv_home_brand_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/see_all"
+        android:drawablePadding="@dimen/px_5dp"
+        android:drawableRight="@drawable/icon_home_see_all"
+        android:textColor="@color/common_yellow"
+        android:textSize="@dimen/ip5_28px"
+        />
+
+  </FrameLayout>
+
+</RelativeLayout>

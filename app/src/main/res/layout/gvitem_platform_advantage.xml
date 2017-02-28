@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/platform_advantage_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/px_10dp"
+    android:paddingBottom="@dimen/px_10dp"
+    android:textSize="@dimen/ip5_28px"
+    android:paddingLeft="@dimen/px_20dp"
+    android:textColor="@color/common_text_black"
+    />

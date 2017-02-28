@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+  compileSdkVersion 24
+  buildToolsVersion "23.0.1"
+  defaultConfig {
+    applicationId "com.haoche51.bee"
+    minSdkVersion 17
+    targetSdkVersion 24
+    versionCode 20161210
+    versionName "1.0.0"
+
+    multiDexEnabled true
+    manifestPlaceholders = [UMENG_CHANNEL_VALUE: "1207000"]
+  }
+
+  signingConfigs {
+    debug {
+      storeFile file("../haoche51.keystore")
+      storePassword "haoche51@572"
+      keyAlias "haoche51"
+      keyPassword "haoche51@572"
+    }
+    release {
+      storeFile file("../haoche51.keystore")
+      storePassword "haoche51@572"
+      keyAlias "haoche51"
+      keyPassword "haoche51@572"
+    }
+  }
+
+  buildTypes {
+    debug {
+      buildConfigField "boolean", "LOG_DEBUG", "true"
+      buildConfigField "boolean", "ENABLE_BAIDU_STAT", "false"
+
+      versionNameSuffix "-debug"
+      minifyEnabled false
+      zipAlignEnabled false
+      shrinkResources false
+      signingConfig signingConfigs.debug
+    }
+
+    release {
+      buildConfigField "boolean", "LOG_DEBUG", "false"
+      buildConfigField "boolean", "ENABLE_BAIDU_STAT", "true"
+      minifyEnabled false
+      zipAlignEnabled true
+      shrinkResources false
+
+      signingConfig signingConfigs.release
+
+      applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+          def outputFile = output.outputFile
+          if (outputFile != null && outputFile.name.endsWith('.apk')) {
+            def fileName = "Bee_${variant.productFlavors[0].name}.apk"
+            output.outputFile = new File(outputFile.parent, fileName)
+          }
+        }
+      }
+    }
+  }
+
+  sourceSets {
+    main {
+      jniLibs.srcDirs = ['libs']
+      assets.srcDirs = ['assets']
+    }
+  }
+
+  lintOptions {
+    checkReleaseBuilds false
+    abortOnError false
+  }
+
+  productFlavors {
+
+    "1207000" {}
+
+    productFlavors.all { flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile 'com.android.support:appcompat-v7:24.2.1'
+  compile 'com.jakewharton:butterknife:8.4.0'
+  apt 'com.jakewharton:butterknife-compiler:8.4.0'
+  compile 'org.greenrobot:eventbus:3.0.0'
+  compile 'com.google.code.gson:gson:2.4'
+  compile 'in.srain.cube:ultra-ptr:1.0.10'
+  compile 'com.squareup.retrofit2:retrofit:2.1.0'
+  compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+  compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+  compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+  compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+  compile 'com.tencent.bugly:crashreport:latest.release'
+  compile files('../libs/BaiduLBS_Android.jar')
+  compile files('../libs/Baidu_Mtj_3.7.5.4.jar')
+  compile files('../libs/360update-5.0.7.jar')
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_empty_view_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="@color/common_white"
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ip5_34px"
+      android:textColor="@color/common_text_black"
+      android:drawableTop="@drawable/icon_bee_fail"
+      android:text="@string/bee_no_data_for_profile"
+      android:drawablePadding="@dimen/px_10dp"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ip5_24px"
+      android:textColor="@color/common_text_gray"
+      android:text="@string/bee_no_data_for_profile_hint"/>
+
+</LinearLayout>

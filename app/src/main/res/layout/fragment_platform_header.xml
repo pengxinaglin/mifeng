@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/px_105dp"
+          android:background="@color/bee_half_transparent_black"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/px_40dp"
+          android:background="@color/common_white"
+          />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_platform_icon"
+        android:layout_width="@dimen/px_75dp"
+        android:layout_height="@dimen/px_75dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/px_2dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/empty_brand"
+        />
+  </FrameLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="@dimen/px_8dp"
+      android:background="@color/common_white"
+      android:orientation="vertical"
+      >
+
+    <include layout="@layout/fragment_platform_header_name"/>
+
+    <include layout="@layout/fragment_platform_header_detection"/>
+
+    <include layout="@layout/fragment_platform_header_advantage"/>
+
+  </LinearLayout>
+</LinearLayout>

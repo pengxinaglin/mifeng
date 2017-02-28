@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_45dp"
+    android:background="@color/common_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    >
+
+  <RelativeLayout
+      android:id="@+id/rel_filter_bar_sort"
+      style="@style/filter_bar_rel_style"
+      >
+
+    <TextView
+        android:id="@+id/tv_filter_bar_sort"
+        style="@style/filter_bar_tv_style"
+        android:text="@string/filter_sort"
+        />
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/rel_filter_bar_brand"
+      style="@style/filter_bar_rel_style"
+      >
+
+    <TextView
+        android:id="@+id/tv_filter_bar_brand"
+        style="@style/filter_bar_tv_style"
+        android:text="@string/filter_brand"
+        />
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/rel_filter_bar_price"
+      style="@style/filter_bar_rel_style"
+      >
+
+    <TextView
+        android:id="@+id/tv_filter_bar_price"
+        style="@style/filter_bar_tv_style"
+        android:text="@string/filter_price"
+        />
+
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/rel_filter_bar_detail"
+      style="@style/filter_bar_rel_style"
+      >
+
+    <TextView
+        android:id="@+id/tv_filter_bar_detail"
+        style="@style/filter_bar_tv_style"
+        android:drawableRight="@drawable/icon_filter_bar_right"
+        android:text="@string/filter_more"
+        />
+
+  </RelativeLayout>
+
+</LinearLayout>

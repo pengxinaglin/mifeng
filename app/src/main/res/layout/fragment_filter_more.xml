@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <RelativeLayout
+      android:id="@+id/rel_filter_more_top"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_44dp"
+      android:background="@color/common_white"
+      >
+    <ImageView
+        android:id="@+id/iv_filter_more_close"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_44dp"
+        android:contentDescription="@null"
+        style="@style/bee_filter_top_close"
+        />
+    <TextView
+        android:id="@+id/tv_filter_more_top_title"
+        style="@style/bee_filter_top_title_hint"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/iv_filter_more_close"
+        android:text="@string/filter_more"
+        />
+    <View
+        android:id="@+id/v_filter_more_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_05dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_line"
+        />
+    <TextView
+        android:id="@+id/tv_filter_more_top_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/ip5_28px"
+        android:textColor="@color/common_yellow"
+        android:layout_marginRight="@dimen/px_20dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/filter_more_reset"
+        />
+  </RelativeLayout>
+
+  <LinearLayout
+      android:id="@+id/linear_filter_more_bottom"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_60dp"
+      android:orientation="vertical"
+      android:layout_alignParentBottom="true"
+      android:background="@color/common_white"
+      >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_05dp"
+        android:background="@color/common_bg_gray"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_05dp"
+        android:background="@color/common_line"
+        />
+    <TextView
+        android:id="@+id/tv_filter_more_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_44dp"
+        android:layout_marginTop="@dimen/px_8dp"
+        android:layout_marginBottom="@dimen/px_8dp"
+        android:layout_marginLeft="@dimen/px_20dp"
+        android:layout_marginRight="@dimen/px_20dp"
+        android:gravity="center"
+        android:textColor="@color/common_text_black"
+        android:textSize="@dimen/ip5_34px"
+        android:text="@string/filter_more_search_result"
+        android:background="@drawable/common_bg_yellow_button"
+        />
+  </LinearLayout>
+  <com.haoche51.bee.custom.BeeScrollView
+      android:id="@+id/sv_filter_more"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/linear_filter_more_bottom"
+      android:layout_below="@id/rel_filter_more_top"
+      android:overScrollMode="never"
+      android:scrollbars="none"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/common_bg_gray"
+        >
+      <TextView
+          style="@style/bee_filter_title_hint"
+          android:text="@string/filter_more"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/px_05dp"
+          android:background="@color/common_line"
+          />
+
+      <include layout="@layout/filter_more_car_type"/>
+
+      <include layout="@layout/filter_more_car_age"/>
+
+      <include layout="@layout/filter_more_car_distance"/>
+
+      <include layout="@layout/filter_more_car_speed_box"/>
+
+      <include layout="@layout/filter_more_car_platform"/>
+
+    </LinearLayout>
+
+  </com.haoche51.bee.custom.BeeScrollView>
+</RelativeLayout>

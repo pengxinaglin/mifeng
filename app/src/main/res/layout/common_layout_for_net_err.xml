@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_net_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="@color/common_bg_gray"
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/ip5_34px"
+      android:textColor="@color/common_text_black"
+      android:drawableTop="@drawable/icon_bee_fail"
+      android:text="@string/bee_net_err_retry"
+      android:drawablePadding="@dimen/px_10dp"
+      />
+
+</LinearLayout>

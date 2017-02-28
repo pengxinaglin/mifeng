@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/px_15dp"
+    android:paddingRight="@dimen/px_15dp"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/px_36dp"
+    android:layout_marginBottom="@dimen/px_30dp"
+    >
+
+  <com.haoche51.bee.custom.PlatformImageView
+      android:id="@+id/piv_home"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/home_platform"
+      android:contentDescription="@null"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/px_30dp"
+      android:textSize="@dimen/ip5_24px"
+      android:textColor="@color/common_text_gray"
+      android:text="@string/app_desc_3"
+      />
+</LinearLayout>

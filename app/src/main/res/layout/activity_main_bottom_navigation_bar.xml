@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_05dp"
+      android:background="@color/common_line"
+      />
+  <RadioGroup
+      android:id="@+id/navigation_bar"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_45dp"
+      android:gravity="center"
+      android:orientation="horizontal"
+      >
+
+    <RadioButton
+        android:id="@+id/rb_tab_home_page"
+        style="@style/tab_style"
+        android:drawableTop="@drawable/selector_tab_home"
+        android:text="@string/bee_tab_home"
+        />
+
+    <RadioButton
+        android:id="@+id/rb_tab_core_vehicle"
+        style="@style/tab_style"
+        android:drawableTop="@drawable/selector_tab_buy_car"
+        android:text="@string/bee_tab_buy_car"
+        />
+
+    <com.haoche51.bee.custom.NavigationButton
+        android:id="@+id/rb_tab_profile"
+        style="@style/tab_style"
+        android:drawableTop="@drawable/selector_tab_profile"
+        android:text="@string/bee_tab_profile"
+        />
+  </RadioGroup>
+
+</LinearLayout>

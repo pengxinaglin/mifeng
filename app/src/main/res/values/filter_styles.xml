@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="filter_bar_rel_style">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">@dimen/px_45dp</item>
+    <item name="android:layout_weight">1.0</item>
+  </style>
+
+  <style name="filter_bar_tv_style">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_centerInParent">true</item>
+    <item name="android:textColor">@color/common_text_black</item>
+    <item name="android:textSize">@dimen/ip5_28px</item>
+    <item name="android:drawablePadding">@dimen/px_5dp</item>
+    <item name="android:drawableRight">@drawable/icon_filter_bar_close</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:ellipsize">end</item>
+  </style>
+
+  <style name="bee_filter_top_close">
+    <item name="android:paddingLeft">@dimen/px_15dp</item>
+    <item name="android:paddingRight">@dimen/px_10dp</item>
+    <item name="android:src">@drawable/icon_filter_close</item>
+    <item name="android:scaleType">center</item>
+    <item name="android:clickable">true</item>
+  </style>
+
+  <style name="bee_filter_title_hint">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/px_64dp</item>
+    <item name="android:textSize">@dimen/ip5_60px</item>
+    <item name="android:textColor">@color/common_text_black</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingLeft">@dimen/px_15dp</item>
+    <item name="android:paddingBottom">@dimen/px_5dp</item>
+    <item name="android:background">@color/common_white</item>
+  </style>
+
+  <style name="bee_filter_top_title_hint">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">@dimen/px_44dp</item>
+    <item name="android:textSize">@dimen/ip5_40px</item>
+    <item name="android:textColor">@color/common_text_black</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:background">@color/common_white</item>
+  </style>
+
+  <style name="bee_filter_item_hint">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/px_48dp</item>
+    <item name="android:textSize">@dimen/ip5_34px</item>
+    <item name="android:textColor">@color/common_text_black</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingLeft">@dimen/px_20dp</item>
+    <item name="android:paddingTop">@dimen/px_8dp</item>
+    <item name="android:background">@color/common_white</item>
+  </style>
+
+  <style name="bee_filter_gv">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">@dimen/px_17dp</item>
+    <item name="android:paddingRight">@dimen/px_17dp</item>
+    <item name="android:paddingBottom">@dimen/px_17dp</item>
+    <item name="android:listSelector">@android:color/transparent</item>
+    <item name="android:background">@color/common_white</item>
+  </style>
+
+</resources>

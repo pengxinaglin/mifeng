@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 公共的颜色-->
+  <color name="common_text_gray">#999999</color>
+  <color name="common_text_black">#262626</color>
+  <color name="common_yellow">#faba04</color>
+  <color name="common_click_yellow">#f1b400</color>
+  <color name="common_line">#e5e5e5</color>
+  <color name="common_bg_gray">#f6f6f6</color>
+  <color name="common_white">#ffffff</color>
+  <!-- 公共的颜色-->
+
+
+  <color name="common_gray">#99000000</color>
+
+  <!-- 透明颜色-->
+  <color name="bee_transparent_color">#00000000</color>
+  <color name="bee_half_transparent_white">#80FFFFFF</color>
+  <color name="bee_half_transparent_black">#80000000</color>
+  <color name="bee_90_transparent_white">#E5FFFFFF</color>
+
+</resources>

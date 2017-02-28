@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_white"
+    android:orientation="vertical"
+    >
+
+  <include layout="@layout/fragment_vehicle_list_title"/>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_05dp"
+      android:background="@color/common_line"
+      />
+
+  <include layout="@layout/fragment_filter_common_bar"/>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_05dp"
+      android:background="@color/common_line"
+      />
+
+  <include layout="@layout/common_layout_for_net_err"/>
+
+  <com.haoche51.bee.custom.PullToRefresh
+      android:id="@+id/ptr_buy_list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/common_bg_gray"
+      />
+
+</LinearLayout>

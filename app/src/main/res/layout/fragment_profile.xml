@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/px_15dp"
+      android:layout_marginTop="@dimen/px_30dp"
+      android:textColor="@color/common_text_black"
+      android:textSize="@dimen/ip5_60px"
+      android:text="@string/my_ask"
+      />
+
+  <include layout="@layout/empty_view_for_profile"/>
+
+  <ListView
+      android:id="@+id/lv_my_ask_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="@dimen/px_10dp"
+      android:cacheColorHint="@color/bee_transparent_color"
+      android:focusable="true"
+      android:divider="@null"
+      android:overScrollMode="never"
+      android:listSelector="@color/bee_transparent_color"
+      android:scrollbars="none"
+      />
+</LinearLayout>

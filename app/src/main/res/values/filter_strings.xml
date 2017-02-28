@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="filter_sort">排序</string>
+  <string name="filter_brand">品牌</string>
+  <string name="filter_hot_brand">热门品牌</string>
+  <string name="filter_all_brand">品牌不限</string>
+  <string name="filter_letter">AA</string>
+  <string name="filter_series">车系</string>
+  <string name="filter_all_series">车系不限</string>
+  <string name="filter_price">价格</string>
+  <string name="filter_all_price">价格不限</string>
+  <string name="filter_choose_price">快速选择</string>
+  <string name="filter_price_custom">自定义/万元</string>
+  <string name="filter_price_ensure">确定</string>
+  <string name="filter_more">筛选</string>
+  <string name="filter_more_reset">全部重置</string>
+  <string name="filter_more_car_type">车身结构</string>
+  <string name="filter_more_car_age">车龄/年</string>
+  <string name="filter_more_all_car_age">车龄不限</string>
+  <string name="filter_more_car_distance">里程/万公里</string>
+  <string name="filter_more_all_car_distance">里程不限</string>
+  <string name="filter_more_speed_box">变速箱</string>
+  <string name="filter_more_platform">平台选择</string>
+  <string name="filter_more_search_result">为您找到%s辆车</string>
+
+
+  <string-array name="bee_filter_sort">
+    <item>智能排序</item>
+    <item>价格低到高</item>
+    <item>价格高到低</item>
+    <item>车龄新到旧</item>
+    <item>里程短到长</item>
+  </string-array>
+
+  <string-array name="bee_filter_price">
+    <item>0~3万</item>
+    <item>3~5万</item>
+    <item>5~10万</item>
+    <item>10~15万</item>
+    <item>15~20万</item>
+    <item>20~30万</item>
+    <item>30~50万</item>
+    <item>50万以上</item>
+  </string-array>
+
+  <string-array name="bee_filter_more_car_type">
+    <item>SUV</item>
+    <item>MPV</item>
+    <item>跑车</item>
+  </string-array>
+
+  <string-array name="bee_filter_more_speed_box">
+    <item>手动</item>
+    <item>自动</item>
+  </string-array>
+
+  <string-array name="bee_filter_speed_box">
+    <item>不限</item>
+    <item>手动</item>
+    <item>自动</item>
+  </string-array>
+
+  <!-- 0未知 1两厢 2三厢 3SUV 4MPV 5旅行车 6跑车 7皮卡 8面包车' -->
+  <string-array name="bee_filter_car_type">
+    <item>不限</item>
+    <item>SUV</item>
+    <item>MPV</item>
+    <item>跑车</item>
+  </string-array>
+
+  <!-- 1=>"好车无忧",2=>"58放心车",3=>"人人车",4=>"瓜子",5=>"优信认证",6=>"车王",7=>"优车诚品" -->
+  <string-array name="bee_filter_more_platform">
+    <item>好车无忧</item>
+    <item>瓜子</item>
+    <item>人人车</item>
+    <item>58放心车</item>
+    <item>优信认证</item>
+    <item>优车诚品</item>
+    <item>车王</item>
+  </string-array>
+
+  <string-array name="bee_filter_platform">
+    <item>不限</item>
+    <item>好车无忧</item>
+    <item>58放心车</item>
+    <item>人人车</item>
+    <item>瓜子</item>
+    <item>优信认证</item>
+    <item>车王</item>
+    <item>优车诚品</item>
+  </string-array>
+
+</resources>
